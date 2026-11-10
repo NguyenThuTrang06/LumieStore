@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "LUMIÉ STORE",
+    "slug": "lumie-store",
+    "scheme": "lumie",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.student.lumiestore"
+    },
+    "android": {
+      "package": "com.student.lumiestore",
+      "adaptiveIcon": {
+        "backgroundColor": "#FAF7F2"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Cho phép LUMIÉ STORE chọn ảnh sản phẩm từ thư viện ảnh của bạn.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
